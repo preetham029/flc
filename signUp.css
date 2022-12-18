@@ -1,5 +1,5 @@
 body {
-  background-color:#EC672C;
+  background-color:#ffffff;
 }
 .login-container {
 
@@ -10,8 +10,8 @@ body {
   width: 500px;
   margin: 0 auto;
   padding: 100px;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: o.6;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 h1 {
@@ -22,15 +22,18 @@ h1 {
   margin-bottom: auto;
   margin-top: 20%;
 }
-.login-options a {
+.google{
+  opacity: 1;
+  margin-top: auto;
+  margin-bottom: 2cm;
   border: #EC672C;
   border-radius: 10px;
   box-sizing: content-box;
 }
-.login-options a:hover {
-  background-color: rgb(219, 84, 27);
-  
+.google :hover{
+  opacity: 0.4;
 }
+
 button{
 
   width: 100%;
@@ -43,7 +46,7 @@ button{
 }
 button:hover{
   background-color: #eb5f24;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 input[type=text], input[type=password] {
   align-content: center;

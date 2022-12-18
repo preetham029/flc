@@ -9,9 +9,13 @@
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:url("https://img.freepik.com/free-vector/realistic-studio-lights-empty-background-design_1017-27233.jpg?w=2000");
+    background-color: antiquewhite;
     background-size:cover;
     background-position: center;
+    }
+    .logo{
+        top:unset;
+        left: unset;
     }
 
     .signin{
@@ -35,24 +39,28 @@
     background:transparent;
     }
   
-    .hi
+    button
     {
     width:350px;
     height:40px;
     font-size:20px;
-    background-color:blue;
-    border:none;
+    background-color: #e8855b;
     color:white;
     margin-top:20px;
     cursor: pointer;
     }
-    .hi :hover{
-        background-color: aqua;
+    button:hover{
+        background-color:  #cf4f18;
         transition: 0.4s;
     }
-    form h1{
-    margin-bottom:30px;
+    h1{
+        align-items: center;
+        margin-bottom:30px;
     }
     ::placeholder{
-    color:black;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        text-align: center;
+    color: rgba(0,0,0,0.5);
     }
