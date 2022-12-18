@@ -1,0 +1,58 @@
+body {
+  background-color:#EC672C;
+}
+.login-container {
+
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  padding: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login-options {
+  margin-bottom: auto;
+  margin-top: 20%;
+}
+.login-options a {
+  border: #EC672C;
+  border-radius: 10px;
+  box-sizing: content-box;
+}
+.login-options a:hover {
+  background-color: rgb(219, 84, 27);
+  
+}
+button{
+
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #eb5f24;
+  transition: 0.5s;
+}
+input[type=text], input[type=password] {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(1, 0, 0);
+}
+

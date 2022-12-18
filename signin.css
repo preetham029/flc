@@ -1,0 +1,58 @@
+   {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing:border-box;}
+    body
+    {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:url("https://img.freepik.com/free-vector/realistic-studio-lights-empty-background-design_1017-27233.jpg?w=2000");
+    background-size:cover;
+    background-position: center;
+    }
+
+    .signin{
+        align-self: center;
+        text-align: center;
+        align-items: center;
+        align-items: center;
+    }
+    
+    input
+    {
+    
+    display:block;
+    width:350px;
+    height:40px;
+    margin:20px;
+    border:none;
+    outline:none;
+    font-size:20px;
+    border-bottom:1px solid black;
+    background:transparent;
+    }
+  
+    .hi
+    {
+    width:350px;
+    height:40px;
+    font-size:20px;
+    background-color:blue;
+    border:none;
+    color:white;
+    margin-top:20px;
+    cursor: pointer;
+    }
+    .hi :hover{
+        background-color: aqua;
+        transition: 0.4s;
+    }
+    form h1{
+    margin-bottom:30px;
+    }
+    ::placeholder{
+    color:black;
+    }
